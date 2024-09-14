@@ -1,0 +1,176 @@
+body{
+    background-color:whitesmoke;
+    color:black;
+    margin: 0px;
+}
+#radio{
+    display: block;
+    font-size: large;
+    position: absolute;
+    left: 40vw;
+    width: 500px;
+}
+
+form{
+    font-size: large;
+}
+
+span{
+    position: absolute;
+    left:180px;
+}
+
+table{
+    font-size: large;  
+}
+
+#table th,#table td{
+    border-bottom: 2px black solid;
+}
+
+
+#mytb{
+    border-spacing: 0;
+}
+
+#mytb th{
+    border: 2px solid black;
+    padding:2px 8px;
+}
+
+#mytb td{
+    border: 2px solid black;
+    padding:2px 8px;
+}
+
+#average{
+    float: right;
+    margin: 0 2px;
+}
+
+#average input{
+    width:50px;
+    border: 1px solid black;
+}
+
+.chart-box{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+/* ***************** add my me *********************** */
+
+.visulizedChart{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    /* background-color: lightblue;
+     */
+     background: lightgreen;
+    height: 45px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid black;
+}
+.visulizedChart p{
+    font-weight: 800;
+    font-size: 30px;
+}
+.InputFiled{
+    border-radius: 10px;
+}
+
+.InputFolder{
+    margin-left: 32%;
+    /* margin-right: 32%; */
+}
+
+#table{
+    /* background: lightblue; */
+    background: lightgreen;
+
+    border-radius: 10px;
+    /* border-color: red; */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btnGang{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+.MainPage{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+
+
+
+}
+
+#timequanta{
+    margin-left: 35%;
+}
+
+#timeburst{
+    margin-left: 35%;
+}
+#timearrival{
+    margin-left: 35%;
+}
+
+#myChart{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid black;
+}
+
+/* .footer 
+{
+    background-color: #000000;
+    width: 100vw;
+} */
+.end{
+    font-weight: 200px;
+    font-size: 25px;
+    /* color: red; */
+}
+
+/* .my-heading{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+     background: lightgreen;
+    margin-left: 25rem;
+    margin-right: 25rem;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; 
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid black;
+    
+} */
+.text-center{
+    /* display: inline-flex; */
+    /* align-items: center; */
+    justify-content: center;
+    /* justify-items: center; */
+    /* margin-left: 26rem; */
+    background-color: lightgreen;
+    padding: 8pxpx;
+    border-bottom: 4px red solid;
+}
